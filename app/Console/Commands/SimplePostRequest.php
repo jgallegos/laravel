@@ -59,7 +59,7 @@ class SimplePostRequest extends Command
         if ($success) {
             $this->info("The request reached destination and had a successful response");
         } else {
-            $this->info("The request may or may not reached destination and had an error response");
+            $this->info("The request had a failed response");
         }
         // 4. End Ensure reliable delivery
 
